@@ -1,0 +1,21 @@
+name: computational-publications
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Main Python
+  - python=3.8
+
+  # Publication packages
+  - sphinxcontrib-bibtex
+  - ghp-import
+
+  # Jupyter environment
+  # - jupyterlab
+  # - notebook
+  # - jupyter_contrib_nbextensions
+  # - nbclean
+  # - autopep8
+  # - nb_black

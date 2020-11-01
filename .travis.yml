@@ -1,0 +1,18 @@
+language: python
+
+matrix:
+  include:
+    - os: linux
+    - os: osx
+      language: generic
+
+install:
+  - chmod +x .travis/install.sh
+  - ./.travis/install.sh
+
+script:
+  - source $HOME/miniconda/bin/activate
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda activate computational-publications
+  - pip install -r requirements.txt
+  - conda list
