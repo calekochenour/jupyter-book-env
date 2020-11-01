@@ -27,4 +27,4 @@ publish-book: build-book
 push-main:
 	git add .
 	git commit -m $(gh_main_commit_message)
-	git push origin master
+	git push origin main
