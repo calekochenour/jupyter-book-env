@@ -2,14 +2,11 @@ name: computational-publications
 
 channels:
   - conda-forge
-  - pip
   - defaults
 
 dependencies:
   # Main Python
   - python=3.8
-
-  - jupyter-book
 
   # Publication packages
   - sphinxcontrib-bibtex
@@ -22,3 +19,6 @@ dependencies:
   # - nbclean
   # - autopep8
   # - nb_black
+
+  pip:
+    - jupyter-book
