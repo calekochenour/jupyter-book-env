@@ -32,7 +32,7 @@ $ conda activate computational-publications
 
 ## Jupyter Book Instructions
 
-This repoitory contains a `Makefile` that automates the commands to clean, build, and publish the Jupyter Book. To complete these tasks, change the `jupyter_book` variable to the name of the folder containing the Jupyter Book and change the `github_pages_commit_message` to a commit message the captures the updates.
+This repository contains a `Makefile` that automates the commands to clean, build, and publish the Jupyter Book. To complete these tasks, change the `jupyter_book` variable to the name of the folder containing the Jupyter Book and change the `github_pages_commit_message` to a commit message the captures the updates.
 
 Once all variables are set, run the following command to clean, build, and publish the updated Jupyter Book:
 
