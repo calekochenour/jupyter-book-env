@@ -42,8 +42,6 @@ $ make publish-book
 
 ## Contents
 
-This repository contains all files necessary to re-create the environment locally.
-
 ### `Makefile`
 
 Contains instructions to automate Jupyter Book builds and GitHub commits.
