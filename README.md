@@ -1,4 +1,4 @@
-[![Travis CI Build Status](https://travis-ci.com/calekochenour/computational-publication-environment.svg?branch=master)](https://travis-ci.com/calekochenour/computational-publication-environment)
+[![Travis CI Build Status](https://travis-ci.com/calekochenour/computational-publication-environment.svg?branch=main)](https://travis-ci.com/calekochenour/computational-publication-environment)
 
 # Computational Publication Environment
 
