@@ -8,6 +8,8 @@ dependencies:
   # Main Python
   - python=3.8
 
+  - jupyter-book 
+
   # Publication packages
   - sphinxcontrib-bibtex
   - ghp-import
