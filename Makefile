@@ -5,8 +5,8 @@
 jupyter_book = TEXTBOOK/
 
 # Set commit messages
-gh_main_commit_message = "COMMIT MESSAGE"
-gh_pages_commit_message = "COMMIT MESSAGE"
+github_main_commit_message = "COMMIT MESSAGE"
+github_pages_commit_message = "COMMIT MESSAGE"
 
 # Push all files to main; clean, build, and publish book to GitHub Pages
 all: push-main publish-book
@@ -21,10 +21,10 @@ build-book: clean-book
 
 # Publish book build to GitHub Pages branch
 publish-book: build-book
-	ghp-import -n -p -f -m $(gh_pages_commit_message) $(jupyter_book)_build/html
+	ghp-import -n -p -f -m $(github_pages_commit_message) $(jupyter_book)_build/html
 
 # Push all files to main branch
 push-main:
 	git add .
-	git commit -m $(gh_main_commit_message)
+	git commit -m $(github_main_commit_message)
 	git push origin main
