@@ -13,12 +13,13 @@ dependencies:
   - ghp-import
 
   # Jupyter environment
-  # - jupyterlab
-  # - notebook
-  # - jupyter_contrib_nbextensions
-  # - nbclean
-  # - autopep8
-  # - nb_black
+  - jupyterlab
+  - notebook
+  - jupytext
+  - jupyter_contrib_nbextensions
+  - nbclean
+  - autopep8
+  - nb_black
 
   # Jupyter Book
   - pip
