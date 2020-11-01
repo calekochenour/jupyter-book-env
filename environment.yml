@@ -20,5 +20,5 @@ dependencies:
   # - autopep8
   # - nb_black
 
-  pip:
+  - pip:
     - jupyter-book
