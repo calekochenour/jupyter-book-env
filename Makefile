@@ -2,16 +2,14 @@
 .PHONY: all push-main clean-book build-book publish-book
 
 # Set Jupyter Book folder
-jupyter_book = "TEXTBOOK/"
+jupyter_book = TEXTBOOK/
 
 # Set commit messages
 gh_main_commit_message = "COMMIT MESSAGE"
 gh_pages_commit_message = "COMMIT MESSAGE"
 
-# Push all files to main and clean, build, and publish book to GitHub Pages
-all:
-	push-main
-	publish-book
+# Push all files to main; clean, build, and publish book to GitHub Pages
+all: push-main publish-book
 
 # Clean contents of the book
 clean-book:
