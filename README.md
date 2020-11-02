@@ -1,5 +1,6 @@
 [![Travis CI Build Status](https://travis-ci.com/calekochenour/computational-publication-environment.svg?branch=main)](https://travis-ci.com/calekochenour/computational-publication-environment)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)](https://ci.appveyor.com/project/calekochenour/computational-publication-environment)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4175915.svg)](https://doi.org/10.5281/zenodo.4175915)
 [![BSD 3-Clause License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 # Computational Publication Conda Environment
